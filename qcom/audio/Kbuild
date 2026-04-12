@@ -70,7 +70,7 @@ dtbo-y += volcano-audio.dtbo \
 endif
 endif
 dtb-$(CONFIG_MACH_SONY_DEVICE) += pineapple-audio.dtbo
-dtbo-$(CONFIG_MACH_SONY_PDX245) += sony/somc-asahi-audio-pdx245.dtbo sony/somc-asahi-audio-pdx245_ets.dtbo
+dtbo-$(CONFIG_MACH_SONY_PDX245) += sony/somc-asahi-audio-pdx245.dtbo
 endif
 
 ifeq ($(CONFIG_ARCH_PITTI), y)
